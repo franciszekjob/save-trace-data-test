@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Setup Starknet Foundry
-        uses: foundry-rs/setup-snfoundry@v4
+        uses: foundry-rs/setup-snfoundry@v5.0.0
         with:
           starknet-foundry-version: 0.35.1
 
