@@ -16,6 +16,7 @@ jobs:
       - name: Setup Scarb
         uses: software-mansion/setup-scarb@v1
         with:
+          scarb-version: 2.9.2
           scarb-lock: ./Scarb.lock
 
       - name: Run tests
